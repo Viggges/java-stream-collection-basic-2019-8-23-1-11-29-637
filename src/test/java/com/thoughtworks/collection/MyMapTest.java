@@ -9,7 +9,7 @@ import static org.fest.assertions.api.Assertions.assertThat;
 public class MyMapTest {
 
     @Test
-    public void should_sort_from_big_to_small() {
+    public void should_sort_from_big_to_small() throws Exception {
         //从大到小排序
         Integer[] array = new Integer[]{1, 2, 3, 4, 5};
         List<Integer> list = Arrays.asList(array);
@@ -23,7 +23,7 @@ public class MyMapTest {
     }
 
     @Test
-    public void should_sort_from_small_to_big() {
+    public void should_sort_from_small_to_big() throws Exception {
         //从小到大排序
         Integer[] array = new Integer[]{3, 2, 4, 5, 1};
         List<Integer> list = Arrays.asList(array);

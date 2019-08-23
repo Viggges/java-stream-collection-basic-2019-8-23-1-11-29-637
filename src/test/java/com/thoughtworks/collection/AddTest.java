@@ -10,7 +10,7 @@ import static org.fest.assertions.api.Assertions.assertThat;
 public class AddTest {
 
     @Test
-    public void should_get_sum_of_evens() {
+    public void should_get_sum_of_evens() throws Exception {
         //求leftBorder 和rightBorder之间的偶数和
         int leftBorder = 1;
         int rightBorder = 10;
@@ -21,7 +21,7 @@ public class AddTest {
     }
 
     @Test
-    public void should_get_triple_and_add_two() {
+    public void should_get_triple_and_add_two() throws Exception {
         //求数组中每个元素的3倍加2的和
         Integer[] array = new Integer[]{1, 5, 7, 11, 35, 67};
         List<Integer> arrayList = Arrays.asList(array);
@@ -32,7 +32,7 @@ public class AddTest {
     }
 
     @Test
-    public void should_return_average_of_even() {
+    public void should_return_average_of_even() throws Exception {
         //求数组中所有偶数的平均数
         Integer[] array = new Integer[]{1, 2, 3, 4, 5};
         List<Integer> arrayList = Arrays.asList(array);

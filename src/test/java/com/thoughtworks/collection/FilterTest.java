@@ -9,7 +9,7 @@ import static org.fest.assertions.api.Assertions.assertThat;
 public class FilterTest {
 
     @Test
-    public void should_return_even() {
+    public void should_return_even() throws Exception {
         //求数组中的偶数
         Integer[] array = new Integer[]{1, 2, 3, 4, 5};
         List<Integer> arrayList = Arrays.asList(array);
@@ -23,7 +23,7 @@ public class FilterTest {
     }
 
     @Test
-    public void should_return_multiple_of_three() {
+    public void should_return_multiple_of_three() throws Exception {
         //求数组中3的倍数
         Integer[] array = new Integer[]{6, 2, 3, 4, 9};
         List<Integer> arrayList = Arrays.asList(array);
